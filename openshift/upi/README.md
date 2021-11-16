@@ -44,7 +44,7 @@ all:
       os_subnet_range: '10.0.0.0/16'
       os_flavor_master: 'm1.xlarge'
       os_flavor_worker: 'm1.xlarge'
-      os_image_rhcos: 'rhcos-openstack.4.6.47.x86_64.qcow2'
+      os_image_rhcos: 'rhcos-openstack.4.9.0.x86_64.qcow2'
       # Service subnet cidr
       svc_subnet_range: '172.30.0.0/16'
       os_svc_network_range: '172.30.0.0/15'
