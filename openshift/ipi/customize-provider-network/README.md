@@ -28,6 +28,7 @@ Use `install-dir/install-config.yaml` as a starting install config and modify ba
 ## Create cluster
 Once the customization is done create manifests files as follows,
 ```
+OPENSHIFT_INSTALL_CMD="../../scripts/openshift-install"
 ${OPENSHIFT_INSTALL_CMD} create manifests --dir=install-dir
 ```
 You can change manifests file, add or delete manifest file to some extent.
@@ -39,5 +40,7 @@ ${OPENSHIFT_INSTALL_CMD} create cluster  --dir=install-dir
 
 References:
 https://superuser.openstack.org/articles/tenant-networks-vs-provider-networks-in-the-private-cloud-context/
+
 https://docs.openstack.org/newton/install-guide-ubuntu/launch-instance-networks-provider.html
+
 https://docs.openshift.com/container-platform/4.9/installing/installing_openstack/installing-openstack-installer-custom.html#installation-osp-provider-networks_installing-openstack-installer-custom
