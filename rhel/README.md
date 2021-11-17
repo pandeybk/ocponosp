@@ -4,7 +4,7 @@ I am using Dell T-640 server for this demostration.
 
 ## GUI-based installation
 - There are various way you can install RHEL. For this demostration I am using GUI-based installation with an DVD ISO image file which contains all repositories and software packages and does not require any additional configuration. You can also use Boot ISO image which is a minimal image file that supports registering your system, attaching subscriptions, and installing RHEL from the Content Delivery Network (CDN).
-- You can download DVD ISO from the Customer Portal. In this methog registration is performed after the GUI installation completes.
+- You can download DVD ISO from the Customer Portal. In this method registration is performed after the GUI installation completes.
 
 ## Prerequisites
 
