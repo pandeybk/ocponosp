@@ -38,7 +38,8 @@ And finally create cluster.
 ${OPENSHIFT_INSTALL_CMD} create cluster  --dir=install-dir
 ```
 
-References:
+### References:
+
 https://superuser.openstack.org/articles/tenant-networks-vs-provider-networks-in-the-private-cloud-context/
 
 https://docs.openstack.org/newton/install-guide-ubuntu/launch-instance-networks-provider.html
