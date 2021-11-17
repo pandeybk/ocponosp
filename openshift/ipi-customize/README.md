@@ -2,7 +2,7 @@ If you want to construct openshift cluster in OpenStack with customisation, foll
 
 ## Create Install config
 First create install config as follows. 
-OPENSHIFT_INSTALL_CMD="../../scripts/openshift-install"
+OPENSHIFT_INSTALL_CMD="../scripts/openshift-install"
 ```
 ${OPENSHIFT_INSTALL_CMD} create install-config --dir=install-dir
 ```
@@ -25,5 +25,5 @@ ${OPENSHIFT_INSTALL_CMD} create cluster  --dir=install-dir
 ## Destroy cluster
 To delete run following
 ```
-../../scripts/openshift-install destroy cluster  --dir=install-dir
+${OPENSHIFT_INSTALL_CMD} destroy cluster  --dir=install-dir
 ```

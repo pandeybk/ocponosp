@@ -28,7 +28,7 @@ Use `install-dir/install-config.yaml` as a starting install config and modify ba
 ## Create cluster
 Once the customization is done create manifests files as follows,
 ```
-OPENSHIFT_INSTALL_CMD="../../scripts/openshift-install"
+OPENSHIFT_INSTALL_CMD="../scripts/openshift-install"
 ${OPENSHIFT_INSTALL_CMD} create manifests --dir=install-dir
 ```
 You can change manifests file, add or delete manifest file to some extent.
