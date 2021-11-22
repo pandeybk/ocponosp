@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="matrix(1, 0, 0, 1, 101.138481, 62.473782)">
+    <g id="software---overview" transform="translate(-651.000000, -359.000000)">
+      <g id="section---#1" transform="translate(103.000000, 359.000000)">
+        <g id="overview-diagram" transform="translate(548.000000, 0.000000)">
+          <g>
+            <g id="Group" opacity="0.5" transform="matrix(1, 0, 0, 1, 134, 123)" stroke="#286391">
+              <g id="Shape">
+                <polyline points="0 30.515625 0 0 63.9092784 0 252 0 252 30.515625"/>
+              </g>
+            </g>
+            <path d="M 158.5 122.623 L 158.5 77.377" id="Shape" stroke="#286391" opacity="0.5"/>
+            <path d="M 258 153.516 L 258 123.484" id="Shape" stroke="#286391" opacity="0.5"/>
+            <path d="M 365.5 122.623 L 365.5 77.377" id="Shape" stroke="#286391" opacity="0.5"/>
+            <path d="M 304 80.506 L 304 0.494" id="Shape" stroke="#286391" opacity="0.5"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
